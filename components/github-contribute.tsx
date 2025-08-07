@@ -30,7 +30,14 @@ export function GitHubContribute() {
                         Contribute Now
                       </Link>
                     </Button>
-                    <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-gray-900" asChild>
+                    <Button 
+                      size="lg" 
+                      variant="outline" 
+                      // Adjusted styling for light mode visibility
+                      className="border-white text-black hover:bg-white hover:text-gray-900 
+                                dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-gray-900" 
+                      asChild
+                    >
                       <Link href="/contribution-guide">
                         View Guide
                       </Link>
