@@ -1,30 +1,20 @@
-# InnovatUp website
+#  InnovatUp Website
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Welcome to the official repository for the **InnovatUp** website!
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/om-kumars-projects-5acfb5a0/v0-innovat-up-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/YJHisKRWAL1)
+---
 
-## Overview
+##  About InnovatUp
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+**InnovatUp** is a student-driven tech community focused on learning by doing. We build real projects, support each other, and explore everything from web dev to AI.
 
-## Deployment
+We’re not just another coding group — we’re here to create, collaborate, and grow together.
 
-Your project is live at:
+---
 
-**[https://vercel.com/om-kumars-projects-5acfb5a0/v0-innovat-up-website](https://vercel.com/om-kumars-projects-5acfb5a0/v0-innovat-up-website)**
+##  Join Us
 
-## Build your app
+If you're passionate about tech, eager to contribute, or just want to learn with like-minded folks:
 
-Continue building your app on:
+🔗 [Join the community](https://github.com/Innovatup)
 
-**[https://v0.dev/chat/projects/YJHisKRWAL1](https://v0.dev/chat/projects/YJHisKRWAL1)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
