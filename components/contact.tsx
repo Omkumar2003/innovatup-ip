@@ -70,82 +70,8 @@ return (
         Have a question, suggestion, or want to collaborate? We'd love to hear from you!
       </p>
     </div>
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* START: Moved Contact Form Card */}
-          <Card className="p-6">
-            <h2 className="text-xl font-semibold mb-6">Send us a message</h2>
-            
-            {isSubmitted ? (
-              <div className="text-center py-8">
-                <CheckCircle className="h-12 w-12 text-green-600 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Message Sent!</h3>
-                <p className="text-muted-foreground">
-                  Thanks for reaching out. We'll get back to you within 24 hours.
-                </p>
-                <Button 
-                  onClick={() => setIsSubmitted(false)} 
-                  variant="outline" 
-                  className="mt-4"
-                >
-                  Send Another Message
-                </Button>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium mb-2">
-                    Name
-                  </label>
-                  <Input
-                    id="name"
-                    name="name"
-                    type="text"
-                    value={formData.name}
-                    onChange={handleInputChange}
-                    placeholder="Your full name"
-                    required
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium mb-2">
-                    Email
-                  </label>
-                  <Input
-                    id="email"
-                    name="email"
-                    type="email"
-                    value={formData.email}
-                    onChange={handleInputChange}
-                    placeholder="your.email@example.com"
-                    required
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium mb-2">
-                    Message
-                  </label>
-                  <Textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleInputChange}
-                    placeholder="Tell us about your project, question, or how you'd like to get involved..."
-                    rows={6}
-                    required
-                  />
-                </div>
-                
-                <Button type="submit" className="w-full" disabled={isLoading}>
-                  {isLoading ? 'Sending...' : 'Send Message'}
-                </Button>
-              </form>
-            )}
-          </Card>
-          {/* END: Moved Contact Form Card */}
-
-          {/* This div contains the "Get in touch" and "Follow us" cards */}
+    <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
+      
           <div className="space-y-6">
             <Card className="p-6">
               <h2 className="text-xl font-semibold mb-6">Get in touch</h2>
